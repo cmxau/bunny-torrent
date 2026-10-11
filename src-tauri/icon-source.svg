@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#3fb8f0"/>
+      <stop offset="1" stop-color="#8a6cf0"/>
+    </linearGradient>
+    <linearGradient id="fur" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#e6e9f5"/>
+    </linearGradient>
+    <linearGradient id="car" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffa347"/>
+      <stop offset="1" stop-color="#f26a1b"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#bg)"/>
+  <!-- ears -->
+  <g>
+    <ellipse cx="190" cy="132" rx="38" ry="104" transform="rotate(-8 190 132)" fill="url(#fur)"/>
+    <ellipse cx="190" cy="140" rx="19" ry="76" transform="rotate(-8 190 140)" fill="#ffb3c7"/>
+    <ellipse cx="322" cy="132" rx="38" ry="104" transform="rotate(8 322 132)" fill="url(#fur)"/>
+    <ellipse cx="322" cy="140" rx="19" ry="76" transform="rotate(8 322 140)" fill="#ffb3c7"/>
+  </g>
+  <!-- head -->
+  <ellipse cx="256" cy="288" rx="136" ry="124" fill="url(#fur)"/>
+  <!-- cheeks -->
+  <circle cx="176" cy="316" r="20" fill="#ffc2d1" opacity=".75"/>
+  <circle cx="336" cy="316" r="20" fill="#ffc2d1" opacity=".75"/>
+  <!-- eyes (happy, chewing) -->
+  <path d="M188 268 q18 -20 36 0" fill="none" stroke="#2a2340" stroke-width="9" stroke-linecap="round"/>
+  <path d="M288 268 q18 -20 36 0" fill="none" stroke="#2a2340" stroke-width="9" stroke-linecap="round"/>
+  <!-- nose -->
+  <path d="M244 300 h24 l-12 14 z" fill="#ff8fab" stroke="#ff8fab" stroke-width="6" stroke-linejoin="round"/>
+  <!-- carrot -->
+  <g transform="rotate(-24 256 360)">
+    <path d="M232 340 C232 330 280 330 280 340 L262 470 Q256 488 250 470 Z" fill="url(#car)"/>
+    <path d="M244 372 h20 M247 404 h14" stroke="#c9500f" stroke-width="5" stroke-linecap="round" opacity=".6"/>
+    <!-- bitten top -->
+    <path d="M226 342 q10 -18 22 -4 q8 -14 20 -2 q12 -8 16 8 Z" fill="#fff" opacity="0"/>
+    <!-- leaves -->
+    <path d="M256 338 C236 300 214 292 204 300 C214 318 236 332 256 338 Z" fill="#53d17a"/>
+    <path d="M256 338 C256 296 264 276 278 270 C284 290 274 318 256 338 Z" fill="#3dbb66"/>
+    <path d="M258 340 C284 312 308 306 320 316 C304 330 280 340 258 340 Z" fill="#53d17a"/>
+  </g>
+  <!-- paws -->
+  <ellipse cx="214" cy="392" rx="30" ry="24" fill="url(#fur)"/>
+  <ellipse cx="302" cy="388" rx="30" ry="24" fill="url(#fur)"/>
+  <!-- teeth -->
+  <rect x="241" y="322" width="13" height="20" rx="4" fill="#fff" stroke="#d6daea" stroke-width="2"/>
+  <rect x="258" y="322" width="13" height="20" rx="4" fill="#fff" stroke="#d6daea" stroke-width="2"/>
+</svg>
